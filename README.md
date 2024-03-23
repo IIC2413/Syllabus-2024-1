@@ -35,15 +35,36 @@ Eduardo Bustos      | 4       | [eb@uc.cl]
 
 #### Jefes
 
-Nombre           | Rol      | Email
----------------- |--------- | ----------------
-Por definir | Bienestar | [@uc.cl]
-Francisca Ancic | Proyecto | [francisca.ancic@uc.cl]
-Lucas Fernández | Cátedra  | [lucas.fernndez@uc.cl]
+Nombre           | Rol                 | Email
+---------------- |-------------------- | ----------------
+Josefa Parra     | Bienestar Sec 1 y 2 | [josefa.parra@uc.cl]
+Antonia González | Bienestar Sec 3 y 4 | [apgonzalez6@uc.cl]
+Lucas Fernández  | Cátedra             | [lucas.fernndez@uc.cl]
+Francisca Ancic  | Proyecto            | [francisca.ancic@uc.cl]
 
 #### Ayudantes
 Nombre           | Email
 ---------------- | ----------------
+Amelia González  | agonzlen@uc.cl
+Benjamín Águila | benjaaguilaruiz@uc.cl
+Camila Carrasco | cicarrasco5@uc.cl
+Consuelo Inostroza | consuelo.inostroza@uc.cl
+Cristóbal Cuneo | cristobal.cuneo@uc.cl
+Cristóbal Contreras | cristobal.contreras@uc.cl
+Daniela Torrent | daniela.torrent@uc.cl
+Diego Milla | diego.milla@uc.cl
+Felipe Valderrama | felipe.valderrama@uc.cl
+Ignacio Sufan | ignacio.sufan@uc.cl
+Martina Molina | martina.molina@uc.cl
+Mateo Andrade | mateo.andrade@uc.cl
+Monserrat Díaz | mdb@uc.cl
+Nicole Larenas | nlarenasb@uc.cl
+Raimundo Escalona | rjescalona@uc.cl
+Ricardo Oviedo | ricardo.oviedo@uc.cl
+Tomás Jackson  | tjacksm@uc.cl
+Vicente Pareja | vicente.pareja@uc.cl
+Vicente Correa | vicente.correa@uc.cl
+Vicente San Martín | vjsm@uc.cl
 
 
 
@@ -52,7 +73,9 @@ Nombre           | Email
 [cal@uc.cl]: mailto:@uc.cl
 [eb@uc.cl]: mailto:eb@uc.cl
 
-[@uc.cl]: mailto:@uc.cl
+[josefa.parra@uc.cl]: mailto:josefa.parra@uc.cl
+[apgonzalez6@uc.cl]: mailto:apgonzalez6@uc.cl
+
 [francisca.ancic@uc.cl]: mailto:francisca.ancic@uc.cl
 [lucas.fernndez@uc.cl]:mailto:lucas.fernndez@uc.cl
 
@@ -67,15 +90,15 @@ Semana | Contenido clase						                            | Taller             |
 #2     | Álgebra relacional 					                          | Álgebra relacional | Álgebra relacional     |  
 #3     | Modelo E/R I 			                                    | Modelo E/R I       | Postgresql y Ubuntu    | 
 #4     | Modelo E/R II 			                                    | Modelo E/R II      |                        | Proyecto enunciado E1 Modelo E/R (W)
-#5     | SQL I - SQL II                        	                |                    | Repaso I1 y taller SQL |
-#6     | Libre        				                                  |                    | Web y SQL              | I1 (W) y  Proyecto entrega E1 modelo E/R (D)
+#5     | SQL I - SQL II                        	                |                    | Taller SQL             |
+#6     | Repaso I1        				                              |                    | Web y SQL              | I1 (W) y  Proyecto entrega E1 modelo E/R (D)
 #7     | Dependencias, Anomalías, Formas normales               |                    |	                      | 
 #8     | Lógica en la BD, Triggers, vistas, SP                  |                    |                        | Proyecto enunciado E2 queries y transacciones (V)
 Receso |                                                        |                    |                        |
 #9     | Transacciones y recuperación ante fallas               | Logging            |                        | 
 #10    | Fundamentos de EEDD y S.O. - Almacenamientos e Indices |                    |                        | Proyecto entrega E2 queries y transacciones (D)
 #11    | Evaluación de consultas						                    | Índices            | Integración            | 
-#12    | Libre						                                      |                    |                        | I2 (W) Proyecto enunciado E3 integración (V)
+#12    | Repaso I2						                                  |                    |                        | I2 (W) Proyecto enunciado E3 integración (V)
 #13    | ORM, Flask                                             |                    |                        |
 #14    | NoSql y MongoDB                                        | MongoDB            |                        |
 #15    | Privacidad de la información			                      |                    |                        | Proyecto entrega E3 integración (D) 
@@ -84,19 +107,23 @@ Receso |                                                        |               
 
 ### Bibliografía 
 - Database Management Systems, 3rd edition, de Raghu Ramakrishnan y Johannes Gehrke.
-- Apuntes de clase, ayudant´ıas y complementarios disponibles en https://github.com/IIC2413/Syllabus-2024-1
+- Apuntes de clase, ayudantías y complementarios disponibles en https://github.com/IIC2413/Syllabus-2024-1
 - Recursos de Internet entregados en clase y ayudantía.
 
 ---
 
 ## Calendario Evaluaciones
 
-### Controles
+### Evaluaciones
 
 Fecha                  | Evaluación
 -----------------------|------------
+***27* - *03* - 2024** | Taller Modelo E/R 
 ***10* - *04* - 2024** | I1
+***24* - *04* - 2024** | Taller Formas Normales 
+***22* - *05* - 2024** | Taller  Índices 
 ***29* - *05* - 2024** | I2
+***19* - *06* - 2024** | Taller MongoDB 
 ***04* - *07* - 2024** | Examen
 
 
@@ -118,7 +145,7 @@ Fecha                  | Evaluación
 
 ### Grupos
 
-El proyecto se realiza en grupos de 3 personas los que pueden formarse en forma voluntaria. Las personas que no hayan inscrito el grupo en la fecha solicitada, se les asignar´a un grupo.
+El proyecto se realiza en grupos de 3 personas los que pueden formarse en forma voluntaria. Las personas que no hayan inscrito el grupo en la fecha solicitada, se les asignará un grupo.
 
 ### Penalización por atraso
 
@@ -136,7 +163,7 @@ Compromiso  | Compromiso del estudiante con el trabajo grupal
 Aporte      | Cantidad de trabajo efectivo útil para el proyecto
 Interacción | Disponibilidad y participación en las decisiones del grupo
 
-El efecto de la Co-evaluaci´on en la nota individual se muestra en la siguiente tabla:
+El efecto de la Co-evaluación en la nota individual se muestra en la siguiente tabla:
 
 Promedio co-evaluación | Efecto
 -----------------------|-------
