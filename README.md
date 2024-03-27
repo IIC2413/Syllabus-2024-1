@@ -93,15 +93,15 @@ Semana | Contenido clase						                            | Taller             |
 #5     | SQL I - SQL II                        	                |                    | Taller SQL             |
 #6     | Repaso I1        				                              |                    | Web y SQL              | I1 (W) y  Proyecto entrega E1 modelo E/R (D)
 #7     | Dependencias, Anomalías, Formas normales               |                    |	                      | 
-#8     | Lógica en la BD, Triggers, vistas, SP                  |                    |                        | Proyecto enunciado E2 queries y transacciones (V)
+#8     | Lógica en la BD, Triggers, vistas, SP                  | Formas normales                   |                        | Proyecto enunciado E2 queries y transacciones (V)
 Receso |                                                        |                    |                        |
 #9     | Transacciones y recuperación ante fallas               | Logging            |                        | 
 #10    | Fundamentos de EEDD y S.O. - Almacenamientos e Indices |                    |                        | Proyecto entrega E2 queries y transacciones (D)
 #11    | Evaluación de consultas						                    | Índices            | Integración            | 
 #12    | Repaso I2						                                  |                    |                        | I2 (W) Proyecto enunciado E3 integración (V)
 #13    | ORM, Flask                                             |                    |                        |
-#14    | NoSql y MongoDB                                        | MongoDB            |                        |
-#15    | Privacidad de la información			                      |                    |                        | Proyecto entrega E3 integración (D) 
+#14    | NoSql y MongoDB                                        |             |                        |
+#15    | Privacidad de la información			                      | MongoDB                   |                        | Proyecto entrega E3 integración (D) 
 #16    | Data Science						                                | Data Science       |                        | P3 (Entrega)  
 #17    | Libre								                                  |                    |                        | Examen (J)
 
@@ -174,9 +174,9 @@ Promedio co-evaluación | Efecto
 
 ### Aprobación del curso
 
-El promedio $\bar{T}$ de las evaluaciones teóricas (I1, I2, Examen) se calcula según
+El promedio $\bar{C}$ de las evaluaciones teóricas (Talleres, I1, I2, Examen) se calcula según
 
-$\bar{T} = \frac{I1 + I2 + 2 \cdot Examen}{4}$
+$\bar{C} = \frac{I1 + I2 + \bar{T} + 2 \cdot Examen}{5}$
 
 Mientras que el promedio $\bar{P_m}$ del Proyecto (E1, E2, E3) se calcula según
 
@@ -184,7 +184,7 @@ $\bar{P_m} = ( 0.2 \cdot E1 + 0.4 \cdot E2 + 0.4 \cdot E3) \cdot co−evaluació
 
 La nota de presentación al examen (NP) se calculará como:
 
-$NP = \frac{0.4 \cdot P + 0.3 \cdot \frac{I1 + I2}{2}}{0.7}$
+$NP = \frac{0.4 \cdot P + 0.3 \cdot \frac{I1 + I2 + \bar{T}}{3}}{0.7}$
 
 La nota final (NF) se calcula como
 
